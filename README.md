@@ -21,6 +21,7 @@ Exploratory data analysis and RGenEDA tutorial for Compute and Conquer February 
 - [Methods](#methods)
   - [Data tidying](#data-tidying)
   - [Exploratory data analysis tutorial](#exploratory-data-analysis-tutorial)
+- [Citations](#citations)
 
 ## Background
 
@@ -43,7 +44,8 @@ For instructions on installing and configuring Pixi for your system, see [here](
 
 ## Data
 
-Preprocessed data in the form of a count matrix and metadata was obtained from the Gene Expression Atlas under accession [ENA: ERP106487, E-MTAB-5464](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-5464/Downloads)
+Preprocessed data in the form of a count matrix and metadata was obtained from the Gene Expression Atlas under accession [ENA: ERP106487, E-MTAB-5464](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-5464/Downloads).
+For ease, downloaded data has been included in this repository under the [data folder](https://github.com/mikemartinez99/Howell-EDA-Example/tree/main/data).
 
 ## Methods
 
