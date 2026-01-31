@@ -1,0 +1,40 @@
+[workspace]
+authors = ["Mike Martinez <mike.j.martinez99@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "envs"
+platforms = ["osx-arm64","linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+# Run RStudio project
+rstudio = "open -n -a Rstudio /Users/mike/Desktop/HowellData/HowellData.Rproj"
+
+# Install github packages
+install-git = """
+Rscript -e '
+devtools::install_github("mikemartinez99/RGenEDA")
+'
+"""
+
+[dependencies]
+r-base = "4.4.1"
+r-sessioninfo = "*"
+r-remotes = "*"
+r-httr = "*"
+r-jsonlite = "*"
+r-devtools = "*"
+r-tidyverse = "*"
+r-dplyr = "*"
+r-tidyr = "*"
+r-readr = "*"
+r-stringr = "*"
+"r-data.table" = "*"
+r-pheatmap = "*"
+r-ggplot2 = "*"
+r-ggpubr = "*"
+r-ggrepel = "*"
+r-viridis = "*"
+r-RColorBrewer = "*"
+bioconductor-deseq2="*"
+bioconductor-apeglm="*"
